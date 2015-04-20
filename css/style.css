@@ -1,0 +1,66 @@
+html,body,div,p,h3{
+	margin: 0px;
+	padding: 0px;
+	font-size: 0px;
+}
+html {
+	width: 100%;
+	height: 100%;
+	background-color: #EDEAEA;
+}
+body {
+	width: 100%;
+	height: 100%;
+}
+p {
+	font-size: 20px;
+}
+h3 {
+	font-size: 50px;
+}
+.row {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.col {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.labelBlock {
+	padding-top: 20%;
+}
+.freqBlock {
+	margin: 0px;
+	width: 100%;
+	height: 50%;
+	outline: 1px solid black;
+	text-align: center;
+	transition: background-color 1s;
+}
+.freqBlock:active {
+	background-color: #CDCBCB;
+}
+.freqBlock.active {
+	background-color: #F12828;
+}
+.center {
+	border-radius: 50px;
+	position: absolute;
+	width: 22%;
+	height: 25%;
+	top: 37%;	
+	left: 39%;
+	z-index: 100;
+	text-align: center;
+	border: 1px solid black;
+	background-color: #FDF9F9;
+	transition: background-color 0.5s;
+}
+.center:active {
+	background-color: #CDCBCB;
+}
+.center.inactive {
+	background-color: #EDEAEA;
+}
