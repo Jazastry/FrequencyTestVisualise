@@ -1,0 +1,13 @@
+#languages {
+	display: block;
+	margin-left: 5%;
+	width: auto;
+	font-size: 25px;
+}
+
+#countryNames {
+	display: none;
+	width: 100px;	
+	background-color: #F8F5F5;
+	z-index: 100;
+}

@@ -1,7 +1,6 @@
-html,body,div,p,h3{
+html,body,div,p,h3,ul,li{
 	margin: 0px;
 	padding: 0px;
-	font-size: 0px;
 }
 html {
 	width: 100%;
@@ -18,9 +17,35 @@ p {
 h3 {
 	font-size: 50px;
 }
+.navBar {
+	height: 27px;
+	font-size: 100%;
+	background-color: #D3D1D1;
+}
+.navBar ul {
+	list-style-type: none;
+}
+.navBar ul a  {	
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 3%;
+	color: #000;
+}
+#languages {
+	display: block;
+	margin-left: 5%;
+	width: auto;
+	font-size: 25px;
+}
+#countryNames {
+	display: none;
+	width: 50px;	
+	background-color: #F8F5F5;
+	z-index: 100;
+}
 .row {
 	width: 100%;
-	height: 100%;
+	height: 94.5%;
 	display: block;
 }
 .col {
@@ -29,12 +54,12 @@ h3 {
 	float: left;
 }
 .labelBlock {
-	padding-top: 20%;
+	padding-top: 17%;
 }
 .freqBlock {
 	margin: 0px;
 	width: 100%;
-	height: 50%;
+	height: 50.65%;
 	outline: 1px solid black;
 	text-align: center;
 	transition: background-color 1s;
@@ -46,11 +71,11 @@ h3 {
 	background-color: #F12828;
 }
 .center {
-	border-radius: 50px;
+	border-radius: 40%;
 	position: absolute;
 	width: 22%;
 	height: 25%;
-	top: 37%;	
+	top: 39%;	
 	left: 39%;
 	z-index: 100;
 	text-align: center;
@@ -63,4 +88,56 @@ h3 {
 }
 .center.inactive {
 	background-color: #D3D1D1;
+}
+/*Portrait Tablet*/
+@media (min-width: 481px) and (max-width: 768px) {
+	.labelBlock {
+		padding-top: 15%;
+	}
+	#languages {
+		font-size: 20px;
+	}
+
+	#countryNames {
+		width: 80px;
+	}
+	.freqBlock {
+		height: 50%;
+	}
+}
+
+/*Landscape smart phone*/
+@media (min-width: 321px) and (max-width: 480px) {
+	.labelBlock {
+		padding-top: 10%;
+	}
+	#languages {
+		font-size: 15px;
+	}
+
+	#countryNames {
+		width: 70px;
+	}
+	.freqBlock {
+		height: 48%;
+	}
+}
+
+/*Portrait smart phone*/
+@media (max-width: 320px) {
+	.labelBlock {
+		padding-top: 10%;
+	}
+	#languages {
+		font-size: 10px;
+	}
+
+	#countryNames {
+		width: 50px;
+	}
+	.center {
+		width: 20%;
+		height: 20%;
+		top: 50%;
+	}
 }

@@ -1,0 +1,31 @@
+[
+	{"name":"ENG","params":[
+		{"name":"bassPlus","params":
+			[{"name":"headLabel","value":"B +"},{"name":"bodyLabel","value":"bass plus"}]
+		},
+		{"name":"bassMinus","params":
+			[{"name":"headLabel","value":"B -"},{"name":"bodyLabel","value":"bass minus"}]
+		},
+		{"name":"highPlus","params":
+			[{"name":"headLabel","value":"H +"}, {"name":"bodyLabel","value":"high plus"}]
+		},
+		{"name":"highMinus","params":
+			[{"name":"headLabel","value":"H -"}, {"name":"bodyLabel","value":"high minus"}]
+		}
+	]},
+	{"name":"BG","params":[
+		{"name":"bassPlus","params":
+			[{"name":"headLabel","value":"Б +"},{"name":"bodyLabel","value":"бас плюс"}]
+		},
+		{"name":"bassMinus","params":
+			[{"name":"headLabel","value":"Б -"},{"name":"bodyLabel","value":"бас минус"}]
+		},
+		{"name":"highPlus","params":
+			[{"name":"headLabel","value":"В +"}, {"name":"bodyLabel","value":"високи плюс"}]
+		},
+		{"name":"highMinus","params":
+			[{"name":"headLabel","value":"В -"}, {"name":"bodyLabel","value":"високи минус"}]
+		}
+	]}
+	
+]
