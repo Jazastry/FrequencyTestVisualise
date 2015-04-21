@@ -12,12 +12,13 @@ body {
 	height: 100%;
 }
 p {
-	font-size: 20px;
+	font-size: 40px;
 }
 h3 {
-	font-size: 50px;
+	font-size: 80px;
 }
 .navBar {
+	display: none;
 	height: 27px;
 	font-size: 100%;
 	background-color: #D3D1D1;
@@ -54,12 +55,15 @@ h3 {
 	float: left;
 }
 .labelBlock {
-	padding-top: 17%;
+	padding-top: 10%;
+}
+.centerLabelBlock {
+	padding-top: 12%;
 }
 .freqBlock {
 	margin: 0px;
 	width: 100%;
-	height: 50.65%;
+	height: 52.9%;
 	outline: 1px solid black;
 	text-align: center;
 	transition: background-color 1s;
@@ -74,8 +78,8 @@ h3 {
 	border-radius: 40%;
 	position: absolute;
 	width: 22%;
-	height: 25%;
-	top: 39%;	
+	height: 28%;
+	top: 36%;	
 	left: 39%;
 	z-index: 100;
 	text-align: center;
@@ -92,7 +96,10 @@ h3 {
 /*Portrait Tablet*/
 @media (min-width: 481px) and (max-width: 768px) {
 	.labelBlock {
-		padding-top: 15%;
+		padding-top: 3%;
+	}
+	.centerLabelBlock {
+		padding-top: 7%;
 	}
 	#languages {
 		font-size: 20px;
@@ -101,15 +108,21 @@ h3 {
 	#countryNames {
 		width: 80px;
 	}
-	.freqBlock {
-		height: 50%;
+	p {
+		font-size: 30px;
+	}
+	h3 {
+		font-size: 70px;
 	}
 }
 
 /*Landscape smart phone*/
 @media (min-width: 321px) and (max-width: 480px) {
 	.labelBlock {
-		padding-top: 10%;
+		padding-top: 0%;
+	}
+	.centerLabelBlock {
+		padding-top: 7%;
 	}
 	#languages {
 		font-size: 15px;
@@ -119,12 +132,18 @@ h3 {
 		width: 70px;
 	}
 	.freqBlock {
-		height: 48%;
+		height: 55%;
+	}
+	p {
+		font-size: 25px;
+	}
+	h3 {
+		font-size: 50px;
 	}
 }
 
 /*Portrait smart phone*/
-@media (max-width: 320px) {
+/*@media (max-width: 320px) {
 	.labelBlock {
 		padding-top: 10%;
 	}
@@ -140,4 +159,4 @@ h3 {
 		height: 20%;
 		top: 50%;
 	}
-}
+}*/
