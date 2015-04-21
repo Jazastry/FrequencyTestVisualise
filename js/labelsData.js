@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	var dataList = (function(){
-		var labelsFile = "../GitPageFrequencyTest/data/labelsData.json";
+		var labelsFile = "../GitPageFrequencyTest/lib/labelsData.json";
 
 		function loadLangData(success, lang) {
 			$.getJSON( labelsFile, {
